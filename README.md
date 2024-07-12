@@ -1,4 +1,8 @@
 # GRADUATION THESIS - IMPROVE THE TESTCASE RECOMMENDATION SYSTEM BY INCORPORATING TIME FACTORS
+
+## Introduction
+
+## CONTRIBUTION
 - Authors: 
     - Nguyen Doan Nhat Minh
     - Vu Dang Khoa
