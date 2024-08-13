@@ -1,6 +1,0 @@
-config
-constants
-flaskr
-response
-services
-utils
