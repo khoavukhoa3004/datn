@@ -1,0 +1,1 @@
+docker stop RecSys-Backend-core;

@@ -1,0 +1,11 @@
+node_modules/
+venv/
+.env
+myenv/
+TRS/logs/
+TRS/files/matries/
+TRS/files/submissions/
+TRS/files/test/
+TRS/files/timeSVD/
+TRS/files/input/
+TRS/files/liststudents/
