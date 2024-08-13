@@ -7,6 +7,7 @@
     - Vu Dang Khoa
 - pdf file: Bao-CaoDATN.pdf - not final file
 
+**Source code: https://github.com/ndnhatminh/sys**
 ### INTRODUCTION
 - **The Testcase Recommendation System (TRS)** is the Recommendation System that aims to suggest suitable testcases for students based on their performances (the ability to solve assignment in Foundation Programming, Data Structure & Algorithm).
   - **Example**: System has 1000 testcases (#1, #2...,#100), student A has only passed 500/1000 testcases. The system would only provide a small testcase set that they had failed, like: #3, #4, #5 (that the Recommendation predict they would be most likely to solve that problem successfully the next time).
