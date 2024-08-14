@@ -38,11 +38,59 @@
 ![Relational database diagram](relational-database-diagram.png)
 
 - **PROJECT STRUCTURES**
+We have 3 source code folder indicate 3 type of server: 
+  - Grader - Backend for grading scores, 
+  - TRS - Backend for handling logic and suggesting testcase, 
+  - Frontend - Frontend for custom LMS Moodle
+
+Some important folder that play a vital roles in program:
 ```
-Grader
-|
+  Grader
+  |
+  │
+  └───flaskr
+  |
+  └───tc_readfiles
+  |
+  └───tc_readfiles
+  └───...
+  |
+  TRS
+  |
+  └───flaskr
+  |     |
+  |     └───input
+  |     |
+  |     └───matries
+  |     └───submissions
+  |     └───...
+  └───files
+  |
+  └───logs
+  |
+  Frontend
+  └───src
+       |
+       └───app
+       |
+       └───components
+       └───config
+       └───help/router-event
+       └───hooks
+       └───provider
+       └───redux
+       └───utils
+       ...
 ```
-- ## 🦫 Results
+- ## HOW TO RUN?
+  - First, install and use docker to manage processes.
+  - In Postgres folder, run command: 'sh dockerrun.sh', this will run script to generate Postgres Database Image.
+  - **In TRS**, run command: 'sh file.sh' where file is run_local, rebuild-and-redeploy... based on current .sh file in TRS to build and run TRS BE server.
+  - **In Grader**, run command to run .sh file, similar to TRS
+  - **In Frontend**, run 'npm run dev' to run in development mode, or 'npm run start' to run fe in production mode.
+
+**Note**: Contact author to being completely guided about environment key for each server.  
+- ## 🦫 RESULTS
 1. UI
 ![rcm_ui_1](https://github.com/user-attachments/assets/f5c9c0dd-1a59-414f-a190-7623d6a1df8c)
 ![rcm_ui_2](https://github.com/user-attachments/assets/e1996a67-54e5-4019-af43-2c97b22005aa)
